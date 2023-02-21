@@ -2,15 +2,13 @@
 
 Single-cell expression data can be used to identify discretized subpopultaions of cells from complex tissues. These discretized populations can then be used to provide exemplars for deconvoluting esitmates for these expression patterns from bulk expression data. This code was written to:
 
-1. Analyze the RNA-seq data and prepare it for mediod calculation (Seurat in R)
-2. Compute the mediods (scanpy in Python)
-3. Plot the results of the deconvolution (scanpy in Python)
+1. Compute the mediods (scanpy in Python)
+2. Plot the results of the deconvolution (scanpy in Python)
 
 ## Environments for running the code
 These code are designed to be run inside docker vitrual environments that can be downloaded through dockerhub:
 
 ```
-docker pull cplaisier/scrna_seq_velocity_6_7_2021
 docker pull saoconn1/scrnaseq_latest
 ```
 
